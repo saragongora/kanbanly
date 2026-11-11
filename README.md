@@ -1,4 +1,4 @@
-# ✿ Kanbanly 1.0
+# ✿ Kanbanly 1.1
 
 Gerenciador de tarefas pessoal com quadro Kanban, visual delicado e armazenamento local.
 
@@ -45,3 +45,7 @@ npm run preview
 ## Tecnologias
 
 React, TypeScript, Vite, Tailwind CSS, Lucide React e dnd-kit.
+
+## Novidades visuais da versão 1.1
+
+Cartões com efeitos de elevação, texturas sutis, flores decorativas, animações leves e respeito à preferência por movimento reduzido. Todas as funções da versão 1.0 foram preservadas.
