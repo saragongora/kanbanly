@@ -4,7 +4,7 @@ import {DndContext,PointerSensor,KeyboardSensor,useSensor,useSensors,useDroppabl
 import type {DragEndEvent,DragStartEvent} from '@dnd-kit/core';
 import {SortableContext,useSortable,sortableKeyboardCoordinates,verticalListSortingStrategy,arrayMove} from '@dnd-kit/sortable';
 import {CSS} from '@dnd-kit/utilities';
-import {CalendarDays,CalendarClock,Bell,BellRing,ShieldCheck,ChevronLeft,ChevronRight,LayoutDashboard,Trash2,Plus,Search,Check,CheckCircle2,Clock3,PlayCircle,MoreHorizontal,Pencil,RotateCcw,X,GripVertical,Flower2,Menu,ArrowRight,AlertTriangle,ChevronDown,Download,Upload,Tag,SlidersHorizontal,BarChart3,TrendingUp,Target,Sun,Moon,Monitor} from 'lucide-react';
+import {CalendarDays,CalendarClock,Bell,BellRing,ShieldCheck,ChevronLeft,ChevronRight,LayoutDashboard,Trash2,Plus,Search,Check,CheckCircle2,Clock3,PlayCircle,MoreHorizontal,Pencil,RotateCcw,X,GripVertical,Flower2,Menu,ArrowRight,AlertTriangle,Download,Upload,SlidersHorizontal,BarChart3,TrendingUp,Target,Sun,Moon,Monitor} from 'lucide-react';
 
 type Status='pending'|'doing'|'done';
 type Priority='low'|'medium'|'high';
