@@ -1,4 +1,4 @@
-# ✿ Kanbanly 1.2
+# ✿ Kanbanly 1.3
 
 Gerenciador de tarefas pessoal com quadro Kanban, visual delicado e armazenamento local.
 
@@ -21,6 +21,12 @@ Para gerar uma versão de produção:
 npm run build
 npm run preview
 ```
+
+## Notificações de prazos (1.3)
+
+Na seção **Lembretes**, ative as notificações e permita que o navegador mostre avisos. Escolha antecedência de 0, 1, 2, 3 ou 7 dias. O Kanbanly avisa sobre tarefas pendentes ou em andamento, incluindo atrasadas, no máximo uma vez por dia para cada tarefa, prazo e antecedência. Concluídas e tarefas na lixeira não notificam. Configurações e histórico de avisos ficam no localStorage.
+
+**Limitação importante:** os avisos funcionam enquanto a página estiver aberta e em contexto seguro (`localhost` ou HTTPS). Não há push remoto ou execução em segundo plano com a página fechada. Alguns navegadores limitam notificações em dispositivos móveis.
 
 ## Funcionalidades
 
