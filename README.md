@@ -82,3 +82,17 @@ Os dados existentes permanecem na chave `kanbanly.tasks.v1` do localStorage, par
 - O campo `completedAt` registra o momento da conclusão. É removido quando a tarefa sai de Concluídas e recriado na próxima conclusão.
 - Tarefas antigas continuam funcionando. Como versões anteriores não guardavam a data de conclusão, elas aparecem no total concluído, mas não no histórico semanal.
 - Dados continuam em `localStorage` com a mesma chave e backups JSON.
+
+## Novidade 1.6 — Jardim Noturno 🌙
+
+- Alternância de aparência no menu lateral: **Claro**, **Noturno** ou **Auto** (segue a preferência do dispositivo).
+- Tema escuro com azul-noite, azul ardósia, verde sálvia, lavanda e dourado suave, aplicado às páginas, cartões, formulários, calendário, dashboard e lixeira.
+- Preferência salva na chave `kanbanly.theme.v1` do `localStorage`; as tarefas continuam na chave original `kanbanly.tasks.v1`.
+- O modo Auto responde às mudanças do sistema sem recarregar a página.
+- Respeita a configuração de movimento reduzido do dispositivo.
+
+**Atualização:** faça backup das tarefas em **Exportar** antes de substituir os arquivos do projeto. A versão 1.6 não apaga nem migra a lista existente.
+
+## Publicação na internet
+
+Consulte **GUIA_PUBLICACAO.md** para instruções detalhadas de Netlify, Vercel, domínio, HTTPS, backups e migração do `localStorage`.
