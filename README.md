@@ -71,3 +71,14 @@ Os dados existentes permanecem na chave `kanbanly.tasks.v1` do localStorage, par
 - Ordene as tarefas por prioridade ou data de vencimento. Use “Ordem manual” para recuperar a ordem normal do quadro.
 - Etiquetas e prioridades são salvas no mesmo localStorage e incluídas nos backups JSON.
 - Para atualizar, faça antes um backup usando o botão Exportar.
+
+
+## Kanbanly 1.5 — Dashboard de produtividade
+
+- Menu **Produtividade**: cartões com total, concluídas, fazendo e atrasadas.
+- Gráfico de barras com conclusões dos últimos sete dias, incluindo hoje.
+- Gráfico de rosca com distribuição atual entre pendentes, fazendo e concluídas.
+- Lista das tarefas atrasadas com atalho para editar.
+- O campo `completedAt` registra o momento da conclusão. É removido quando a tarefa sai de Concluídas e recriado na próxima conclusão.
+- Tarefas antigas continuam funcionando. Como versões anteriores não guardavam a data de conclusão, elas aparecem no total concluído, mas não no histórico semanal.
+- Dados continuam em `localStorage` com a mesma chave e backups JSON.
