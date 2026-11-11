@@ -61,3 +61,13 @@ Cartões com efeitos de elevação, texturas sutis, flores decorativas, animaç�
 ## Atualização da versão 1.1
 
 Os dados existentes permanecem na chave `kanbanly.tasks.v1` do localStorage, para preservar tarefas antigas. Datas são opcionais. Faça um backup JSON antes de atualizar. O armazenamento é específico da origem (endereço e porta) do navegador.
+
+
+## Kanbanly 1.4 — Prioridades, etiquetas e filtros
+
+- Cada tarefa pode ter prioridade baixa, média ou alta. Tarefas antigas recebem prioridade média por padrão.
+- Crie até oito etiquetas coloridas por tarefa, escolhendo verde, amarelo, azul, rosa ou lilás.
+- Filtre o quadro por prioridade, etiqueta e prazo; a busca também encontra nomes das etiquetas.
+- Ordene as tarefas por prioridade ou data de vencimento. Use “Ordem manual” para recuperar a ordem normal do quadro.
+- Etiquetas e prioridades são salvas no mesmo localStorage e incluídas nos backups JSON.
+- Para atualizar, faça antes um backup usando o botão Exportar.
