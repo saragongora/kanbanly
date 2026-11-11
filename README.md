@@ -1,4 +1,4 @@
-# ✿ Kanbanly 1.1
+# ✿ Kanbanly 1.2
 
 Gerenciador de tarefas pessoal com quadro Kanban, visual delicado e armazenamento local.
 
@@ -24,7 +24,9 @@ npm run preview
 
 ## Funcionalidades
 
-- Criar e editar tarefas com título, descrição, status e subtarefas.
+- Criar e editar tarefas com título, descrição, status, subtarefas e data de vencimento opcional.
+- Calendário mensal navegável, seleção de dias, tarefas por dia e criação de tarefa na data selecionada.
+- Indicadores de prazo atrasado, vencendo hoje, futuro e concluído; painel de próximos prazos.
 - Marcar subtarefas e acompanhar progresso por tarefa.
 - Arrastar tarefas entre Pendentes, Fazendo e Concluídas, ou usar o seletor de status.
 - Pesquisar tarefas.
@@ -49,3 +51,7 @@ React, TypeScript, Vite, Tailwind CSS, Lucide React e dnd-kit.
 ## Novidades visuais da versão 1.1
 
 Cartões com efeitos de elevação, texturas sutis, flores decorativas, animações leves e respeito à preferência por movimento reduzido. Todas as funções da versão 1.0 foram preservadas.
+
+## Atualização da versão 1.1
+
+Os dados existentes permanecem na chave `kanbanly.tasks.v1` do localStorage, para preservar tarefas antigas. Datas são opcionais. Faça um backup JSON antes de atualizar. O armazenamento é específico da origem (endereço e porta) do navegador.
