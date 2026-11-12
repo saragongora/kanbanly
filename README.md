@@ -96,3 +96,9 @@ Os dados existentes permanecem na chave `kanbanly.tasks.v1` do localStorage, par
 ## Publicação na internet
 
 Consulte **GUIA_PUBLICACAO.md** para instruções detalhadas de Netlify, Vercel, domínio, HTTPS, backups e migração do `localStorage`.
+
+
+### Ajustes 1.6.3
+- Melhor contraste do seletor de status dos cartões no modo noturno.
+- Títulos em verde sálvia claro e creme lunar no modo noturno.
+- Remoção dos imports não utilizados `ChevronDown` e `Tag` para o build TypeScript.

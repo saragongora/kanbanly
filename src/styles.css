@@ -102,3 +102,25 @@ body{background:#f9f8ef}.main-content{background:radial-gradient(circle at 96% 4
 :root[data-theme='dark'] .sidebar::-webkit-scrollbar-thumb { background: #60758a; }
 .sidebar-bottom { flex-shrink: 0; }
 @media (max-width: 767px) { .sidebar { -webkit-overflow-scrolling: touch; } }
+
+/* Kanbanly 1.6.3 — contraste acessível no Jardim Noturno */
+:root[data-theme='dark'] .task-status-select {
+  background-color: #536c61 !important;
+  color: #f7f3e8 !important;
+  border: 1px solid #9cb9a3;
+  color-scheme: dark;
+  cursor: pointer;
+}
+:root[data-theme='dark'] .task-status-select option {
+  background-color: #344254;
+  color: #f7f3e8;
+}
+:root[data-theme='dark'] .task-status-select:hover { background-color: #627c6e !important; }
+:root[data-theme='dark'] .task-status-select:focus-visible { outline: 2px solid #e7c987; outline-offset: 2px; }
+/* Títulos do quadro, cabeçalho e painéis: verde sálvia claro sobre azul noturno. */
+:root[data-theme='dark'] .main-content h1,
+:root[data-theme='dark'] .main-content h2,
+:root[data-theme='dark'] .main-content h3,
+:root[data-theme='dark'] .main-content h4 { color: #e2edcf !important; }
+:root[data-theme='dark'] .main-content .task-card h3 { color: #f3e6d2 !important; }
+:root[data-theme='dark'] .main-content .lane h2 { color: #e2edcf !important; }
